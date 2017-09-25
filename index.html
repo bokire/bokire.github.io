@@ -153,7 +153,11 @@
       
         <h2 id="awesome-API"><a href="#awesome-API" class="headerlink" title="awesome-API"></a>awesome-API</h2><p><a href="https://github.com/Binaryify/NeteaseCloudMusicApi" target="_blank" rel="external">网易云音乐</a> 网易云音乐WEB接口说明 </p>
 <p><a href="https://github.com/Urinx/WeixinBot" target="_blank" rel="external">WeChat</a> 网页版微信接口说明</p>
-<h2 id="awesome-raspberry-pi"><a href="#awesome-raspberry-pi" class="headerlink" title="awesome-raspberry-pi"></a>awesome-raspberry-pi</h2><p>  <a href="http://shumeipai.nxez.com/2017/09/13/raspberry-pi-network-configuration-before-boot.html" target="_blank" rel="external">无屏幕和键盘配置树莓派WiFi和SSH</a>  使用xShell工具链接ssh时需要在链接的属性(SSH -&gt; 安全性) 的加密算法列表中选择 aes256-ctr， mac加密列表中选择hmac-sha2-256。  </p>
+<h2 id="awesome-raspberry-pi"><a href="#awesome-raspberry-pi" class="headerlink" title="awesome-raspberry-pi"></a>awesome-raspberry-pi</h2><p> 1) <a href="http://shumeipai.nxez.com/2017/09/13/raspberry-pi-network-configuration-before-boot.html" target="_blank" rel="external">无屏幕和键盘配置树莓派WiFi和SSH</a>  使用xShell工具链接ssh时需要在链接的属性(SSH -&gt; 安全性) 的加密算法列表中选择 aes256-ctr， mac加密列表中选择hmac-sha2-256。 </p>
+<p>2) 树莓派的root账户ssh登录设置：</p>
+<p>首先，用pi用户登录（默认密码是raspberry）后，执行sudo passwd root命令，修改root密码；</p>
+<p>然后，编辑/etc/ssh/sshd_config文件，找到PermitRootLogin一行；</p>
+<p>如果之前执行过“sudo passwd –unlock root”的话，这里可能会显示“without-passwd”什么的，把这行修改为“PermitRootLogin yes”，保存退出然后重启系统，root账号应该可以直接登录了。</p>
 <h2 id="awesome-angular"><a href="#awesome-angular" class="headerlink" title="awesome-angular"></a>awesome-angular</h2>
       
 
