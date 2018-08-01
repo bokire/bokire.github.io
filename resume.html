@@ -1,1 +1,1022 @@
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+</head>
+
+<body>
+  <style>
+    html,
+    body,
+    div,
+    p {
+      margin: 0;
+      padding: 0
+    }
+
+    body {
+      font-size: 14px;
+      font-family: "microsoft yahei";
+      background-color: #ffffff
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      table-layout: fixed
+    }
+
+    th,
+    td {
+      font-size: 14px;
+      padding: 0
+    }
+
+    a {
+      text-decoration: none
+    }
+
+    img {
+      border: 0 none
+    }
+
+    .blue {
+      text-decoration: none;
+      color: #3c3d5d
+    }
+
+    .chead {
+      width: 1002px
+    }
+
+    .chead .logo {
+      width: 698px;
+      height: 90px
+    }
+
+    .chead .txt {
+      width: 152px;
+      height: 90px
+    }
+
+    .column {
+      width: 1002px;
+      line-height: 28px;
+      border: 1px solid #dedede
+    }
+
+    .column .hbox {
+      width: 185px;
+      height: 154px
+    }
+
+    .column .head {
+      display: block;
+      background-color: #fafafa
+    }
+
+    .column .box {
+      width: 100%;
+      background-color: #ffffff;
+      border-top: 2px solid #f2f3f5
+    }
+
+    .column .box1 {
+      width: 100%;
+      word-wrap: break-word;
+      color: #ffffff;
+      background-color: #3f4160
+    }
+
+    .column .box2 {
+      width: 100%;
+      background-color: #f8f9fa
+    }
+
+    .column .tba {
+      width: 940px;
+      padding: 0 30px 15px
+    }
+
+    .column .tbb {
+      width: 940px;
+      padding: 0 30px
+    }
+
+    .column .tb1 {
+      width: 900px;
+      line-height: 28px;
+      color: #333333;
+      word-break: break-all;
+      padding: 0 20px
+    }
+
+    .column .tb2 {
+      width: 430px;
+      padding: 0 20px
+    }
+
+    .column .tb3 {
+      width: 900px;
+      padding: 15px 20px 15px 0
+    }
+
+    .column .gray,
+    .column .gray2 {
+      color: #999999;
+      word-break: break-all
+    }
+
+    .column .gray2 {
+      color: #666666
+    }
+
+    .column .plate1,
+    .column .plate2 {
+      width: 430px;
+      height: 54px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #818ba3
+    }
+
+    .column .plate1 {
+      width: 900px;
+      padding: 0 50px
+    }
+
+    .column .plate1 .f16 {
+      font-size: 14px;
+      font-weight: normal;
+      color: #333333
+    }
+
+    .column .plate1 .f12 {
+      font-size: 12px;
+      font-weight: normal;
+      color: #999999
+    }
+
+    .column .keys,
+    .column .keys2 {
+      width: 85px;
+      line-height: 28px;
+      color: #666666
+    }
+
+    .column .keys2 {
+      width: 110px
+    }
+
+    .column .txt1,
+    .column .txt2,
+    .column .txt3 {
+      width: 815px;
+      line-height: 28px;
+      color: #333333;
+      word-break: break-all
+    }
+
+    .column .txt2 {
+      width: 345px
+    }
+
+    .column .txt3 {
+      width: auto;
+      max-width: 815px;
+      font-size: 14px;
+      font-weight: bold
+    }
+
+    .column .txt4 {
+      width: 305px;
+      color: #ffffff;
+      word-break: break-all
+    }
+
+    .column .infr {
+      width: 767px;
+      color: #ffffff;
+      table-layout: auto
+    }
+
+    .column .vam,
+    .column .grcha {
+      vertical-align: middle;
+      margin-left: 5px
+    }
+
+    .column .box1 .vam {
+      margin-right: 5px;
+      margin-left: 0
+    }
+
+    .column .name {
+      font-size: 24px;
+      padding-bottom: 18px
+    }
+
+    .column .icard {
+      color: #a1a3ae;
+      padding-bottom: 18px
+    }
+
+    .column .con {
+      border-top: 1px dotted #ddd
+    }
+
+    .column .pr20 {
+      width: 225px;
+      padding-right: 20px
+    }
+
+    .column .time {
+      width: 120px;
+      line-height: 28px;
+      color: #666666;
+      padding-left: 20px
+    }
+
+    .column .rtbox {
+      width: 765px;
+      line-height: 28px;
+      color: #333333;
+      padding: 0 20px 0 15px;
+      word-break: break-all
+    }
+
+    .column .hai,
+    .column .guan {
+      line-height: 18px;
+      font-size: 12px;
+      color: #ffffff;
+      vertical-align: text-top;
+      margin-left: 5px;
+      padding: 1px 3px;
+      background-color: #3cbe7f;
+      border-radius: 2px
+    }
+
+    .column .guan {
+      background-color: #ff9f20
+    }
+
+    .column .tag {
+      display: inline-block;
+      word-break: break-all;
+      #display: inline;
+      #zoom: 1
+    }
+
+    .column .all {
+      color: #666;
+      padding: 10px 20px;
+      background-color: #fafafa
+    }
+
+    .column .tit {
+      width: 900px;
+      height: 40px;
+      color: #666666;
+      padding: 0 20px;
+      background-color: #f5f5f5
+    }
+
+    .column .p15 {
+      padding: 15px 0
+    }
+
+    .column .p5 {
+      display: inline-block;
+      color: #666666;
+      padding: 0 5px;
+      #display: inline;
+      #zoom: 1
+    }
+
+    .column .cell .skill {
+      width: 165px;
+      text-align: right;
+      padding-right: 15px
+    }
+
+    .column .cell .skbg,
+    .column .cell .skco {
+      display: inline-block;
+      width: 245px;
+      height: 18px;
+      line-height: 18px;
+      font-size: 12px;
+      color: #ffffff;
+      vertical-align: top;
+      margin-top: 6px;
+      background-color: #dddddd;
+      border-radius: 20px;
+      #display: inline;
+      #zoom: 1
+    }
+
+    .column .cell .skco {
+      width: 235px;
+      font-style: normal;
+      margin-top: 0;
+      padding-left: 10px;
+      background-color: #ff9f20;
+      z-index: 3
+    }
+
+    .column .sl .skco {
+      width: 173px
+    }
+
+    .column .lh .skco {
+      width: 112px
+    }
+
+    .column .yb .skco {
+      width: 51px
+    }
+
+    .column .fbox strong {
+      font-size: 14px;
+      font-weight: bold
+    }
+
+    .column .cha {
+      font-size: 12px;
+      font-weight: normal;
+      color: #00457d;
+      margin-left: 5px
+    }
+
+    .column .cha:hover {
+      color: #ff6000
+    }
+
+    .column .email {
+      width: 330px
+    }
+
+    .eng td,
+    .eng .txt3,
+    .eng .fbox strong {
+      font-size: 13px;
+      font-family: 'Arial'
+    }
+
+    .eng .txt1,
+    .eng .rtbox,
+    .eng .phd {
+      width: 775px;
+      font-size: 13px;
+      font-family: 'Arial';
+      line-height: 28px
+    }
+
+    .eng .txt2 {
+      width: 305px
+    }
+
+    .eng .txt4 {
+      width: 245px
+    }
+
+    .eng .cell .txt3 {
+      width: 120px
+    }
+
+    .eng .time,
+    .eng .keys {
+      width: 110px;
+      font-size: 13px;
+      text-align: right
+    }
+
+    .eng .cell .skill {
+      width: 130px
+    }
+
+    .eng .phd {
+      padding-left: 145px
+    }
+
+    .eng .keys {
+      padding-right: 15px
+    }
+
+    .eng .pr20 {
+      width: 205px
+    }
+
+    .eng .pr20 .keys {
+      width: 100px
+    }
+
+    .eng .email {
+      width: 270px
+    }
+  </style>
+  <table cellpadding="0" cellspacing="0" align="center" bgcolor="#fff" class="column">
+    <tbody>
+      <tr>
+        <td valign="top">
+          <table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box1">
+            <tbody>
+              <tr>
+                <td class="hbox" align="middle">
+                  <img src="http://img01.51jobcdn.com/im/2016/resume/man.png" width="85" height="104" class="head">
+                </td>
+                <td>
+                  <table cellspacing="0" cellpadding="0" border="0" class="infr">
+                    <tbody>
+                      <tr>
+                        <td colspan="2" class="name">包凯</td>
+
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <td valign="top">
+                            <img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y2.png" width="20" height="20">15868890489</td>
+                          <td valign="top">
+                            <table cellspacing="0" cellpadding="0" border="0" class="email">
+                              <tbody>
+                                <tr>
+                                  <td valign="top" width="25">
+                                    <img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y3.png" width="20" height="20">
+                                  </td>
+                                  <td valign="top" class="txt4">369080787@qq.com</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td valign="top" colspan="3">
+                          <p>
+                            <img class="vam" src="http://img01.51jobcdn.com/im/2016/resume/y4.png" width="20" height="20">男
+                            <span class="p5">|</span>29 岁 (1989/04/18)
+                            <span class="p5">|</span>现居住杭州
+                            <span class="p5">|</span>7年工作经验
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+              </tr>
+            </tbody>
+          </table>
+          <table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box2">
+            <tbody>
+              <tr>
+                <td class="tba">
+                  <table cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td valign="top" class="tb2">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <thead style="height:0">
+                              <tr>
+                                <td valign="top" class="keys"></td>
+                                <td valign="top" class="txt2"></td>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td colspan="2" class="plate2">最近工作</td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="keys">职位：</td>
+                                <td valign="top" class="txt2">技术总监</td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="keys">公司：</td>
+                                <td valign="top" class="txt2">杭州云意科技有限公司</td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="keys">行业：</td>
+                                <td valign="top" class="txt2">计算机软件</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td valign="top" class="tb2">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <thead style="height:0">
+                              <tr>
+                                <td valign="top" class="keys"></td>
+                                <td valign="top" class="txt2"></td>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td colspan="2" class="plate2">教育信息</td>
+                              </tr>
+
+                              <tr>
+                                <td valign="top" class="keys">学校：</td>
+                                <td valign="top" class="txt2">杭州电子科技大学(2007/9-2011/6)</td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="keys">专业：</td>
+                                <td valign="top" class="txt2">自动化学院|自动化专业</td>
+                              </tr>
+                              <tr>
+                                <td valign="top" class="keys">学历：</td>
+                                <td valign="top" class="txt2">本科</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+            <tbody>
+              <tr>
+                <td class="plate1">个人信息</td>
+              </tr>
+              <tr>
+                <td class="tba">
+                  <table cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td class="tb2" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td valign="top" class="keys">户籍：</td>
+                                <td valign="top" class="txt2">浙江东阳</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td class="tb2" valign="top">
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                              <tr>
+                                <td valign="top" class="keys">婚姻状况：</td>
+                                <td valign="top" class="txt2">未婚</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+
+              <table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+                <tbody>
+                  <tr>
+                    <td class="plate1">求职意向</td>
+                  </tr>
+                  <tr>
+                    <td class="tba">
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                          <tr>
+
+                            <td class="tb2" valign="top">
+                              <table cellspacing="0" cellpadding="0" border="0">
+                                <tbody>
+                                  <tr>
+                                    <td valign="top" class="keys">地点：</td>
+                                    <td valign="top" class="txt2">
+                                      <span class="tag">杭州</span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td class="tb2" valign="top">
+                              <table cellspacing="0" cellpadding="0" border="0">
+                                <tbody>
+                                  <tr>
+                                    <td valign="top" class="keys">到岗时间：</td>
+                                    <td valign="top" class="txt2">1个月内</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="tb2" valign="top">
+                              <table cellspacing="0" cellpadding="0" border="0">
+                                <tbody>
+                                  <tr>
+                                    <td valign="top" class="keys">职能/职位：</td>
+                                    <td valign="top" class="txt2">
+
+                                      <span class="tag">系统架构师、全栈开发</span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td class="tb2" valign="top">
+                              <table cellspacing="0" cellpadding="0" border="0">
+                                <tbody>
+                                  <tr>
+                                    <td valign="top" class="keys">行业：</td>
+                                    <td valign="top" class="txt2">
+                                      <span class="tag">互联网</span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="tb1" colspan="2">
+                              <table cellspacing="0" cellpadding="0" border="0">
+                                <thead style="height:0">
+                                  <tr>
+                                    <td valign="top" class="keys"></td>
+                                    <td valign="top" class="txt1"></td>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td valign="top" class="keys">自我评价：</td>
+                                    <td valign="top" class="txt1">
+                                      1、学习能力强，对新技术、新框架有强烈兴趣，喜欢专研；
+                                      <br> 2、对待工作认真负责，有责任心，勇于担当；
+                                      <br> 3、有带领10余人团队经验，能独立完成Java后台中小型项目的系统分析、架构设计，并完成详细设计和编码的任务；
+                                      <br> 4、有多年政府管理系统软件项目设计、交付经验，比业务团队更懂技术，能更好的将项目落地，比技术团队更懂业务，业务答疑解惑上一步到位；
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+                <tbody>
+                  <tr>
+                    <td class="plate1">工作经验</td>
+                  </tr>
+                  <tr>
+                    <td class="tbb">
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="p15">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td valign="top" class="time">2015/5-至今</td>
+                                  <td valign="top" class="rtbox">
+                                    <strong class="txt3">技术经理、技术总监</strong>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="phd tb1" colspan="2">
+                                    <span>杭州云意科技有限公司</span>
+                                    <span class="gray">&nbsp;[3年3个月]
+                                    </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="phd tb1 gray2" colspan="2">计算机软件
+                                    <span class="p5">|</span>50-100人
+                                </tr>
+                                <tr>
+                                  <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">工作描述：</td>
+                                          <td valign="top" class="txt1">
+                                            在公司任职期间主要负责公司后台Java web框架、中后台前端框架的架构工作，及带领技术团队完成项目开发、交付工作；
+                                            <br> 主要成果：
+                                            <br>1、后台java web框架从原先的单一垂直应用框架到分布式服务框架，再向SOA面向服务框架逐步演进；整合集成了FastDFS分布式文件系统、shiro安全框架、NoSQL数据库（Redis、mongodb）、消息队列等产品框架，系统并发能力、稳定性均、可扩展性均有大幅提升。
+                                            <br>2、中后台前端框架将原先的DWZ(jquery框架)、Extjs4.*(MVVM框架)替换成Angular(中间有一段时间使用了Angularjs进行过渡)。提升软件界面颜值的同时，TypeScript面向对象的特性更符合后端java开发人员的编程思想，便于团队理解、掌握、架构、实现。
+                                            <br>3、前后端分离（软件架构层面上的前后端分离），后端主要以提供数据API接口为主，业务逻辑由前端、移动端自己控制。减轻后端重复开发工作量之外，还方便前后端灵活的进行业务调整架构。
+                                            <br>4、项目方面，带领开发团队完成了“智慧城市公共信息服务平台”、“浙江大华楼宇综合管理平台”、“基层政务网格化治理服务平台—芝麻政务”、“成都市综合行政执法智慧服务平台”等多个产品、项目的开发、交付任务。
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </td>
+                        </tr>
+                        <tr>
+                          <td class="p15 con">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td valign="top" class="time">2012/6-2015/5</td>
+                                  <td valign="top" class="rtbox">
+                                    <strong class="txt3">Java开发工程师、技术经理</strong>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="phd tb1" colspan="2">
+                                    <span>城云科技(杭州)有限公司</span>
+                                    <span class="gray">&nbsp;[2年11个月]
+                                    </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="phd tb1 gray2" colspan="2">计算机软件
+                                    <span class="p5">|</span>150-500人
+                                    <span class="p5">|</span>有限责任公司(台港澳法人独资)</td>
+                                </tr>
+                                <tr>
+                                  <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">工作描述：</td>
+                                          <td valign="top" class="txt1">此公司主要负责浙江华数项目的设计、编码工作。有“基于“跨代网、云服务”全省信息化支撑平台”，“华数城市信息屏支撑系统”，“华数城市信息屏支撑系统—附加应用”等多个项目的开发经验。</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p15 con">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td valign="top" class="time">2011/7-2012/5</td>
+                                  <td valign="top" class="rtbox">
+                                    <strong class="txt3">系统分析工程师</strong>
+                                    <span class="p5">|</span>
+                                    <span>AFC事业部</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="phd tb1" colspan="2">
+                                    <span>浙大网新众合轨道交通工程有限公司</span>
+                                    <span class="gray">&nbsp;[11个月]
+                                    </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="phd tb1 gray2" colspan="2">轨道交通设备软件设计
+                                    <span class="p5">|</span>500-1000人
+                                </tr>
+                                <tr>
+                                  <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">工作描述：</td>
+                                          <td valign="top" class="txt1">主要工作内容为地铁售检票系统的需求交流、功能设计、报文规范制定，并参与一部分设备软件的测试、验证工作。
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            </td>
+                        </tr>
+                      </table>
+                      </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+                <tbody>
+                  <tr>
+                    <td class="plate1">近年主要项目经验</td>
+                  </tr>
+                  <tr>
+                    <td class="tba">
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td class="p15">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td valign="top" class="time">2017/11-至今</td>
+                                  <td valign="top" class="rtbox">
+                                    <strong>成都市综合行政执法智慧服务平台</strong>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">项目描述：</td>
+                                          <td valign="top" class="txt1">该平台为成都市建设的全市统一的智慧执法服务平台，服务覆盖全市22的区县。解决综合行政执法体制改革过程中，执法权限不清 、重复执法、多头执法和执法不力的问题，节约执法资源、提高执法效率、方便了群众办事、形成执法合力。
+                                            <br>平台采用了多租户、多应用架构方式进行设计开发，多租户利于22区县的各执法部门业务数据隔离，多应用利用满足不同执法部门的业务个性化需求。
+                                            <br>平台主要由综合管理运维平台、综治行政执法智慧服务平台、智慧执法移动终端三部分组成：
+                                            <br>其中综合行政执法智慧服务平台由多个业务应用组合而成，目前已完成的有系统管理、数据中心、执法业务管理、执法指挥、执法监管、跨域监管、统计分析7大核心应用，并预留添加个性化应用的能力。
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">责任描述：</td>
+                                          <td valign="top" class="txt1">本人是这个项目的技术经理，负责整个项目的功能设计、数据库设计、及核心框架的搭建工作。该项目是公司一个全新的服务项目，面对客户成都市及22个区县统一服务平台的需求，确定了采用多租户、多应用架构模式。
+                                            <br>数据库主要采用MongoDB，解决多个专业部门执法业务数据无固定模式的问题，配合Elasticsearch实现全文检索；Redis做用户登录信息共享及热门数据共享服务，图片、文书等非结构化资源采用FastDFS做分布式存储。
+                                            <br>后端主要采用SpringMVC+Spring+Spring-data框架，为前端、移动端提供统一的接口服务，shiro负责用户登录逻辑判断及接口权限控制；利用Dubbo实现个服务模块间的服务治理。
+                                            <br>此外还搭建了基于Antd组件库的Angular前端框架，抽象出基础增删改查组件的公共类，实现页面菜单权限的控制、增加路由守卫。
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">项目总结：</td>
+                                          <td valign="top" class="txt1">
+                                            该项目是一个多年服务项目，平台必须要有可持续升级能力，所以在项目周期紧的情况下我还是花了2周的时间学习整理了Angular4前端框架，并采用Antd组件库，解决了之前使用的angularjs框架无统一组件库，API文档混乱、缺失，组件无源码，代码风格不统一等问题。
+                                            <br>此外对MongoDB的聚合查询也有了进一步的了解及实践，MongoDB无事务的特点虽然对项目造成了一点影响，好在整个执法平台不涉及交易模块，对事务要求不是非常高，通过合理的数据结构设计及对原子性操作的利用也能解决一部分问题。
+                                            <br>截止到2018年7月份，已经在成都崇州市、双流县、彭州市等多个区县进行使用，移动终端累计下载4000多次。
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p15 con">
+                            <table cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td valign="top" class="time">2017/5-2017/10</td>
+                                  <td valign="top" class="rtbox">
+                                    <strong>基层政务网格化治理服务平台—芝麻政务</strong>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">项目描述：</td>
+                                          <td valign="top" class="txt1">芝麻政务实现基层政务网格化信息采集、事件上报及台账记录等基层治理体系服务，对于上级交办任务及时反馈处置，并能够结合业务实际，实现政务应用的动态扩展，提升乡镇（街道、社区）统筹协调能力，推进乡镇一体化管理服务系统和指挥协同中心建设。
+                                            <br>该项目是公司对多租户架构模式、互联网Saas服务的一次探索、技术孵化。整体业务逻辑以任务、事件、工作台账为主线，串联乡镇服务办及基层工作人员的日常工作。工作台账有多种模板，每种模板的台账能与不同业务系统进行对接，减轻基层工作人员的学习、工作压力。</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">责任描述：</td>
+                                          <td valign="top" class="txt1">本人是这个项目的技术经理，搭建了以Angularjs+SpringMVC+spring为基础的前后端框架，数据库采用MongoDB，Redis做数据缓存，fastdfs用来存在图片等非结构化数据。</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="tb1" colspan="2">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" class="keys">项目总结：</td>
+                                          <td valign="top" class="txt1">
+                                            Angularjs依赖注入、双向绑定等特性虽然给开发过程带来了很大的便利，但开发过程中开发人员的进出调整，组件库不统一、API缺失等问题也造成了很大的困扰。
+                                            <br>因此统一前端框架的组件库是下个项目急需解决的问题。
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <table xmlns="" cellspacing="0" cellpadding="0" border="0" class="box">
+                <tbody>
+                  <tr>
+                    <td class="plate1">
+                      技能特长
+                      <span class="f12">（包括IT技能、语言能力、证书、成绩、培训经历）</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="tbb">
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                          <tr>
+                            <td class="tit">技能/语言</td>
+                          </tr>
+                          <table cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td class="tb3 con">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td valign="top" class="time">java</td>
+                                      <td valign="top" class="rtbox">
+                                        <strong class="txt3">熟练</strong>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="tb3 con">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td valign="top" class="time">Angular(TypeScript)</td>
+                                      <td valign="top" class="rtbox">
+                                        <strong class="txt3">熟练</strong>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                        <table cellspacing="0" cellpadding="0" border="0">
+                          <tbody>
+                            <tr>
+                              <td class="tit">证书</td>
+                            </tr>
+                            <tr>
+                              <td class="tb3 con">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td valign="top" class="time">2008/12</td>
+                                      <td valign="top" class="rtbox">
+                                        <strong class="txt3">大学英语四级</strong>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="tb3 con">
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                  <tbody>
+                                    <tr>
+                                      <td valign="top" class="time">2009/下半年</td>
+                                      <td valign="top" class="rtbox">
+                                        <strong class="txt3">计算机网络技术三级</strong>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </td>
+                  </tr>
+                </tbody>
+                </table>
+                </td>
+      </tr>
+      </tbody>
+      </table>
+</body>
+
+</html>
