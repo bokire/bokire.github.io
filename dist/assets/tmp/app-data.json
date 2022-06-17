@@ -1,0 +1,42 @@
+{
+  "app": {
+    "name": "快速开发平台",
+    "description": "快速开发平台"
+  },
+  "user": {
+    "name": "Anonymous",
+    "avatar": "./assets/tmp/img/avatar.jpg"
+  },
+  "system": {
+    "basePath": ".",
+    "contextPath": {
+      "uaa": "uaa"
+    },
+    "appId": "light_third_app",
+    "loginUrl": "http://192.168.0.61/#/passport/login?appId=light_third_app",
+    "indexUrl": "/",
+    "ssoPath": "http://192.168.0.61:8090"
+  },
+  "menu": [ {
+    "text": "AI智能",
+    "group": true,
+    "hide": false,
+    "role": ["1", "2", "3"],
+    "children": [
+      {
+        "text": "人脸扫码",
+        "link": "/face-detection",
+        "icon": "anticon-dashboard",
+        "hide": false,
+        "role": ["1"]
+      },{
+        "text": "面容id",
+        "link": "/face-id",
+        "icon": "anticon-dashboard",
+        "hide": false,
+        "role": ["1"]
+      }
+      
+    ]
+  }]
+}
